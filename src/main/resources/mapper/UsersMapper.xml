@@ -7,16 +7,17 @@
     <result column="email" property="email" jdbcType="VARCHAR" />
     <result column="age" property="age" jdbcType="INTEGER" />
     <result column="phone" property="phone" jdbcType="VARCHAR" />
+    <result column="pwd" property="pwd" jdbcType="VARCHAR" />
   </resultMap>
 
   <select id="list" resultMap="BaseResultMap">
     select
-    id, username, email, age, phone
+    id, username, email, age, phone,pwd
     from users
   </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" >
     select 
-    id, username, email, age, phone
+    id, username, email, age, phone,pwd
     from users
     where id = #{id,jdbcType=INTEGER}
   </select>
@@ -26,9 +27,9 @@
   </delete>
   <insert id="insert" parameterType="com.bean.Users" >
     insert into users (id, username, email, 
-      age, phone)
+      age, phone,pwd)
     values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, 
-      #{age,jdbcType=INTEGER}, #{phone,jdbcType=VARCHAR})
+      #{age,jdbcType=INTEGER}, #{phone,jdbcType=VARCHAR}, #{pwd,jdbcType=VARCHAR})
   </insert>
    <update id="update" parameterType="com.bean.Users" >
     update users
@@ -44,6 +45,9 @@
       </if>
       <if test="phone != null" >
         phone = #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="pwd != null" >
+        pwd = #{pwd,jdbcType=VARCHAR},
       </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
