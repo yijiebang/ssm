@@ -3,6 +3,9 @@ package com.bean;
 
 import cn.afterturn.easypoi.excel.annotation.Excel;
 
+/**
+ * 用户表
+ */
 public class Users {
     @Excel(name = "id", width = 25)
     private Integer id;
@@ -14,6 +17,16 @@ public class Users {
     private int age;
     @Excel(name = "phone", width = 25)
     private String phone;
+    @Excel(name = "pwd", width = 8)
+    private String pwd;
+
+    public void setPwd(String pwd) {
+        this.pwd = pwd;
+    }
+
+    public String getPwd() {
+        return pwd;
+    }
 
     public Integer getId() {
         return id;
