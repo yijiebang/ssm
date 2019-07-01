@@ -14,6 +14,7 @@
 				<th width="140">年龄</th>
 				<th width="140">手机号</th>
 				<th width="140">邮箱</th>
+				<th width="140">密码</th>
 				<th width="140">修改</th>
 				<th width="140">删除</th>
 				<th width="140">下载</th>
@@ -25,7 +26,7 @@
 					<td>${b.age}</td>
 					<td>${b.phone}</td>
 					<td>${b.email}</td>
-					 
+					<td>${b.pwd}</td>
 					
 					<td><a
 						href="${pageContext.request.contextPath}/user/updatepage/${b.id}">修改</a></td>
@@ -47,7 +48,7 @@
 				<th width="140">年龄</th>
 				<th width="140">手机号</th>
 				<th width="140">邮箱</th>
-
+				<th width="140">密码</th>
 			</tr>
 			<tr>
 				<td width="140"><input type="text" value="${users.username}"
@@ -58,6 +59,8 @@
 					name="phone" /></td>
 					<td width="140"><input type="text" value="${users.email}"
 					name="email" /></td>
+				<td width="140"><input type="text" value="${users.pwd}"
+									   name="pwd" /></td>
 				<td width="140"><input type="submit" value="添加" /></td>
 			</tr>
 		</table>

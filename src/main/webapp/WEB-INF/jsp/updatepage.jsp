@@ -27,6 +27,10 @@
             <td>email：</td>
             <td><input type="text" value="${users.email}" name="email"/></td>
         </tr>
+        <tr>
+            <td>pwd：</td>
+            <td><input type="text" value="${users.pwd}" name="pwd"/></td>
+        </tr>
        <tr><td width="140" colspan="2"><input type="submit" value="更新" /></td></tr>
     </table>
   </form>
