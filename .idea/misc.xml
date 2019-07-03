@@ -6,8 +6,8 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/../springbootdemo-master/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="E:/git/springbootdemo-master/pom.xml" />
       </list>
     </option>
   </component>

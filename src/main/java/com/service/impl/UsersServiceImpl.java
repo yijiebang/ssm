@@ -10,7 +10,6 @@ import javax.transaction.Transactional;
 import java.util.List;
 @Transactional
 @Service
-
 public class UsersServiceImpl implements UsersService {
 	
 	@Autowired
