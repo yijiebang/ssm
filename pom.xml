@@ -21,7 +21,7 @@
         <spring-beans.version>4.3.18.RELEASE</spring-beans.version>
         <spring-expression.version>4.3.18.RELEASE</spring-expression.version>
         <spring-web.version>4.3.18.RELEASE</spring-web.version>
-        <spring-webmvc.version>4.3.18.RELEASE</spring-webmvc.version>
+        <spring-webmvc.version>5.3.18</spring-webmvc.version>
         <spring.version>4.3.18.RELEASE</spring.version>
 
         <!-- spring4.x, pom.xml添加如下配置 -->
