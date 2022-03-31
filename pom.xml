@@ -17,7 +17,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <!--jar版本号-->
         <spring-context.version>4.3.18.RELEASE</spring-context.version>
-        <spring-core.version>4.3.18.RELEASE</spring-core.version>
+        <spring-core.version>5.3.18</spring-core.version>
         <spring-beans.version>4.3.18.RELEASE</spring-beans.version>
         <spring-expression.version>4.3.18.RELEASE</spring-expression.version>
         <spring-web.version>4.3.18.RELEASE</spring-web.version>
