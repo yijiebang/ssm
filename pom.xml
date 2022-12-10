@@ -20,7 +20,7 @@
         <spring-core.version>4.3.18.RELEASE</spring-core.version>
         <spring-beans.version>4.3.18.RELEASE</spring-beans.version>
         <spring-expression.version>4.3.18.RELEASE</spring-expression.version>
-        <spring-web.version>4.3.18.RELEASE</spring-web.version>
+        <spring-web.version>6.0.0</spring-web.version>
         <spring-webmvc.version>4.3.18.RELEASE</spring-webmvc.version>
         <spring.version>4.3.18.RELEASE</spring.version>
 
