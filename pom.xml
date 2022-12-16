@@ -18,7 +18,7 @@
         <!--jar版本号-->
         <spring-context.version>4.3.18.RELEASE</spring-context.version>
         <spring-core.version>4.3.18.RELEASE</spring-core.version>
-        <spring-beans.version>4.3.18.RELEASE</spring-beans.version>
+        <spring-beans.version>5.2.20.RELEASE</spring-beans.version>
         <spring-expression.version>4.3.18.RELEASE</spring-expression.version>
         <spring-web.version>4.3.18.RELEASE</spring-web.version>
         <spring-webmvc.version>4.3.18.RELEASE</spring-webmvc.version>
